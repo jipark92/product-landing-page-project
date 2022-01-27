@@ -6,7 +6,7 @@ body{
 
 
 #main-container {
-   
+  
 }
 
 
@@ -14,6 +14,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav-link{
@@ -33,16 +36,63 @@ body{
 #footer-container{
     display: flex;
     justify-content: center;
+    background-color: yellow;
 }
 #header-img{
     height: 100px;
     width: 100px;
 }
 
+#email {
+    margin: 15px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(199, 199, 71);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#video{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
 
 
+.pricing{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
 
+#bronze {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+#silver{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#gold{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
