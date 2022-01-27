@@ -6,7 +6,10 @@ body{
 
 
 #main-container {
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 
 
@@ -14,15 +17,16 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px groove rgb(0, 0, 0);
     
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .nav-link{
     display: flex;
-    gap: 16px;
+    gap: 10px;
     list-style: none;
+    padding-right: 25px;
+    font-size: 16px;
 }
 
 #form{
@@ -41,6 +45,7 @@ body{
 #header-img{
     height: 100px;
     width: 100px;
+    padding-right: 200px;
 }
 
 #email {
@@ -83,11 +88,43 @@ body{
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
-    justify-content: center;
-    align-items: center;
     margin: 25px;
-    row-;
+    
 }
+#label-bronze{
+    font-size: 24px;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+#label-silver{
+    background-color: gray;
+    font-size: 24px;
+    align-items: center;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+}
+#label-gold{
+    background-color: gray;
+    position: relative;
+    font-size: 24px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 9%;
+}
+
+
+
 
 #bronze {
     border: 2px solid black;
@@ -95,8 +132,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25vh;
-    padding: 25px;
+    height: 30vh;
+    
     
 }
 
@@ -106,8 +143,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25vh;
-    padding: 25px;
+    height: 30vh;    
 }
 #gold{
     border: 2px solid black;
@@ -115,10 +151,32 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25vh;
-    padding: 25px;
+    height: 30vh;   
 }
 
+.btnbronze{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(199, 199, 71);
+    position: relative;
+    top: 15%;
+}
+
+.btnsilver{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(199, 199, 71);
+    position: relative;
+    top: 5%;
+}
+
+.btngold{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(199, 199, 71);
+    position: relative;
+    top: 1%;
+}
 
 
 .nav-link2{
@@ -126,6 +184,8 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+
 
 }
 
