@@ -1,7 +1,11 @@
 body{
     background-color: lightblue;
     margin: 0px;
-    padding: 15px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -19,6 +23,7 @@ body{
     align-items: center;
     border: 2px groove rgb(0, 0, 0);
     
+    
 }
 
 .nav-link{
@@ -29,23 +34,29 @@ body{
     font-size: 16px;
 }
 
+
+
+
 #form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+h4{
+    margin:0px;
+}
 
 
 #footer-container{
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    background-color: gray;
 }
 #header-img{
     height: 100px;
     width: 100px;
-    padding-right: 200px;
+    padding-right: 250px;
 }
 
 #email {
@@ -94,7 +105,7 @@ body{
 #label-bronze{
     font-size: 24px;
     align-items: center;
-    background-color: gray;
+    background-color: #f4a460;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -103,7 +114,7 @@ body{
 }
 
 #label-silver{
-    background-color: gray;
+    background-color: silver;
     font-size: 24px;
     align-items: center;
     width: 100%;
@@ -113,7 +124,7 @@ body{
     top: 5%;
 }
 #label-gold{
-    background-color: gray;
+    background-color: gold;
     position: relative;
     font-size: 24px;
     width: 100%;
